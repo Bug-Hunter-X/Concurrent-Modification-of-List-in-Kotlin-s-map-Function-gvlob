@@ -1,0 +1,3 @@
+# Concurrent Modification of List in Kotlin's map Function
+
+This repository demonstrates a potential issue when using Kotlin's `map` function with a mutable list.  While the `map` function itself creates a new list, concurrent modification of the original list can lead to unexpected behavior or exceptions. The example code shows this problem, and a solution demonstrating safer practices is provided.
